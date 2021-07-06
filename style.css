@@ -16,6 +16,12 @@ h2{
 a{
     text-decoration: none;
 }
+section{
+    margin-bottom: 50px;
+}
+p{
+    line-height: 2;
+}
 .display-flex{
     display: flex;
 }
