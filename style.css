@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.display-flex{
+    display: flex;
+}
+.home-page .content{
+    margin: 70px;
+}
+.text-style{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    padding:10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-image:linear-gradient(rgb(255, 0, 0), rgb(255, 138, 71));
+    border-radius: 20%;
+}
+.display-flex-style{
+    width: 50%;
+    margin: 20px 0 10px 10px;
+    
+}
+.display-flex-style img{
+    width: 50%;
+}
+
+.about-us{
+    background-image: url("images/shapes/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us img{
+    margin-left: 100px;
+}
+.about-us .content{
+    margin: 70px;
+}
+
+.my-recipies-content{
+    text-align: center;
+}
+
+.recipies-display-flex{
+    display: flex;
+    margin: 10px 70px 10px;
+    
+}
+.recipies-item{
+    width: 30%;
+    margin: 15px;
+    box-shadow: 10px 10px 40px 8px #888888;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.recipies-item img{
+    width: 100%;
+    border-radius: 5%;
+}
