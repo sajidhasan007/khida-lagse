@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 .display-flex{
     display: flex;
 }
@@ -61,4 +64,21 @@
 .recipies-item img{
     width: 100%;
     border-radius: 5%;
+}
+.we-available{
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px 8px #888888;
+    padding: 10px;
+}
+.we-available-content{
+    width: 50%;
+    margin: auto;
+}
+.available-city{
+    display: flex;
+}
+.available-city-item{
+    margin: 20px 40px;
 }
