@@ -21,7 +21,7 @@ a{
     font-weight: 700;
     color: white;
     background-image:linear-gradient(rgb(255, 0, 0), rgb(255, 138, 71));
-    border-radius: 20%;
+    border-radius: 110px;
 }
 .display-flex-style{
     width: 50%;
@@ -73,12 +73,23 @@ a{
     padding: 10px;
 }
 .we-available-content{
-    width: 50%;
-    margin: auto;
+    text-align: center;
 }
 .available-city{
     display: flex;
+   width: 50%;
+   margin: auto;
 }
 .available-city-item{
     margin: 20px 40px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    text-align: center;
+
+}
+.footer-content{
+    padding-top: 30px;
 }
